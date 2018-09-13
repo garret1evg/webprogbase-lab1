@@ -1,0 +1,12 @@
+.usrtable {
+    border-collapse: collapse;
+}
+
+.usrtable th, .usrtable td {
+    border: 1px solid black;
+}
+
+.holder {
+    width: 1200px;
+    margin: auto;
+}
