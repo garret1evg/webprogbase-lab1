@@ -9,4 +9,96 @@
 .holder {
     width: 1200px;
     margin: auto;
+    border: 5px solid green;
+    padding: 25px;
+    height: 900px; 
+    background:white;
+    opacity: 0.8;
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;   
+    padding: 20px;
+}
+.menu{
+    width: 150px;
+    /*margin: 20px;*/
+    border: 5px solid white;
+}
+.menu ul{
+    background: rgb(223, 223, 223);
+    font-size: 20px;
+    line-height: 2.9;
+
+}
+.logo{
+    text-align: center;
+    /*border: 5px solid black;*/
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    font-style: italic;
+}
+.header{
+    align-self: center;
+}
+
+.image_header{
+    align-self: right;
+    width: 50%; 
+}
+
+
+.contens{
+    margin: 10px;   
+    padding: 20px;
+    width: 80%;
+}
+body{
+    background-image: url(https://cdn-images-1.medium.com/max/1920/1*8ZsXWqdo9OwAfwychr3zEw.png);
+}
+
+.currentpage{
+    color: black;
+}
+
+.profileHeader{
+    display: flex;
+    flex-direction: row;
+}
+
+.grow{
+    height: 400px;
+    overflow:hidden;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+
+}
+
+.grow:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    }
+.fullName{
+    padding: 10px;
+
+}
+.fullName h1{
+    font-size: 40px;
+    font-style: italic;
+}
+
+.fullName p{
+    font-size: 20px;
+}
+
+.gotousrs{
+    position: absolute;
+    bottom: 40px;
+    width: 1200px;
+    text-align: center;
 }
